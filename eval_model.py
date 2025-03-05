@@ -12,11 +12,11 @@ from Config import LLMConfig
 def init_model(args):
     tokenizer = AutoTokenizer.from_pretrained('./XiaoXin_tokenizer')
     if args.model_mode == 0:
-        ckp = f'./{args.save_dir}/pretrain-2-84-2.pth'
+        ckp = f'./{args.save_dir}/pretrain.pth'
     elif args.model_mode == 1:
         ckp = f'./{args.save_dir}/SFT.pth'
     else:
-        ckp = f'./{args.save_dir}/distill_5999.pth'
+        ckp = f'./{args.save_dir}/distill.pth'
     model = XiaoXin(LLMConfig(
         max_seq_len = args.max_seq_len,
         ))
