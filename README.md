@@ -37,6 +37,8 @@
 
 
 `````
+├── XiaoXin_tokenizer		# 训练好的分词器
+├── assets			# 存放 README.md 文档的图片
 ├── log				# 存放训练日志
 	 ├── Pretrain.log 	# 存放 Pretrain 训练日志
 	 ├── SFT.log 		# 存放 SFT 训练日志
