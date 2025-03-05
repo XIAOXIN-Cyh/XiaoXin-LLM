@@ -37,21 +37,21 @@
 
 
 `````
-├── log											# 存放训练日志
-	 ├── Pretrain.log 				# 存放 Pretrain 训练日志
-	 ├── SFT.log 							# 存放 SFT 训练日志
-	 ├── SFT_long.log 				# 存放 SFT长文本 训练日志
-	 ├── distill.log 					# 存放 R1思维链蒸馏 日志
-├── train_tokenizer.py      # 分词器训练
-├── Config.py               # 模型 超参数 配置
-├── model.py                # 核心模型架构实现
-├── dataset.py              # 训练数据加载
-├── pretrain.py             # 预训练主程序
-├── SFT.py                  # 基础指令微调
-├── SFT_long.py             # 长文本指令微调
-├── distill.py              # R1推理蒸馏实现
-├── eval_model.py           # 模型交互式测试脚本
-└── README.md
+├── log				# 存放训练日志
+	 ├── Pretrain.log 	# 存放 Pretrain 训练日志
+	 ├── SFT.log 		# 存放 SFT 训练日志
+	 ├── SFT_long.log 	# 存放 SFT长文本 训练日志
+	 ├── distill.log 	# 存放 R1思维链蒸馏 日志
+├── train_tokenizer.py      	# 分词器训练
+├── Config.py              	# 模型 超参数 配置
+├── model.py                	# 核心模型架构实现
+├── dataset.py              	# 训练数据加载
+├── pretrain.py             	# 预训练主程序
+├── SFT.py                  	# 基础指令微调
+├── SFT_long.py             	# 长文本指令微调
+├── distill.py              	# R1推理蒸馏实现
+├── eval_model.py           	# 模型交互式测试脚本
+└── README.md	
 `````
 
 
